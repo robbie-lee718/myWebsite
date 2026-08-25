@@ -26,12 +26,15 @@
       ]
     },
     {
-      "title": "Everyday CLI",
-      "description": "A helpful Command Line Interface that you can use to takes notes, track events, and set reminders.",
-      "tags": ["Python"],
+      "title": "Task App",
+      "description": "A Command Line Interface tool to track tasks. It uses a sqlite database to store and handle tasks.",
+      "tags": ["Python", "Work In Progress"],
       "status": "Coming Soon",
       "link": [
-
+        {
+          "text": "GitHub",
+          "url": "https://github.com/robbie-lee718/task-app"
+        }
       ]
     }
   ],
