@@ -22,6 +22,7 @@ function populatePortfolio(data) {
   document.getElementById("nav-brand").innerText = data.name;
   document.getElementById("hero-name").innerText = data.name;
   document.getElementById("hero-title").innerText = data.title;
+  document.getElementById("hero-location").innerText = data.location;
   document.getElementById("hero-bio").innerText = data.bio;
 
   // Footer setup
