@@ -1,7 +1,7 @@
 {
   "name": "Robbie Lee",
   "title": "Software Engineer | Computer Science Student",
-  "bio": "Passionate about application development, game development, and problem solving.",
+  "bio": "Software Developer interested in data analytics, general tech, and creative problem-solving. I'm always experimenting with new tools and looking for the next interesting challenge to solve.",
   "socials": {
     "github": "https://github.com/robbie-lee718",
     "linkedin": "https://www.linkedin.com/in/robert-duane-lee/",
@@ -9,6 +9,18 @@
   },
   "skills": ["Kotlin/Java & Android Studio", "C# & Unity", "Python", "C++", "JavaScript & Web"],
   "projects": [
+        {
+      "title": "My E-Portfolio",
+      "description": "The website you are currently on made with HTML, CSS, and Javascript.",
+      "tags": ["Web", "HTML", "CSS", "Javascript"],
+      "status": "Coming Soon",
+      "link": [
+        {
+          "text": "GitHub",
+          "url": "https://github.com/robbie-lee718/MyWebsite"
+        }
+      ]
+    },
     {
       "title": "Voxel World Generator",
       "description": "A procedural 10x10 voxel world engine built with physics-based player movement, collision detection, and dynamic chunk loading.",
@@ -28,7 +40,7 @@
     {
       "title": "Task App",
       "description": "A Command Line Interface tool to track tasks. It uses a sqlite database to store and handle tasks.",
-      "tags": ["Python", "Work In Progress"],
+      "tags": ["Desktop", "Python", "Work In Progress"],
       "status": "Coming Soon",
       "link": [
         {
