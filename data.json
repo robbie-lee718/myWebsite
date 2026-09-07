@@ -2,13 +2,13 @@
   "name": "Robbie Lee",
   "title": "Software Developer | Computer Science Student",
   "location": "Auburn, AL",
-  "bio": "Interested in data analytics, general tech, and creative problem-solving. I'm always experimenting with new tools and looking for the next interesting challenge to solve.",
+  "bio": "Interested in development, data analytics, general tech, and creative problem-solving. I'm always experimenting with new tools and looking for the next interesting challenge to solve.",
   "socials": {
     "github": "https://github.com/robbie-lee718",
     "linkedin": "https://www.linkedin.com/in/robert-duane-lee/",
     "resume": "./robert_lee_resume.pdf"
   },
-  "skills": ["Kotlin/Java & Android Studio", "C# & Unity", "Python", "C++", "JavaScript & Web"],
+  "skills": ["Python", "Kotlin", "Java", "C/C++", "JavaScript/TypeScript", "SQL", "HTML/CSS", "React", "Node.js/Next.js", "REST APIs", "Git/GitHub", "Linux/Bash", "Docker", "Ansible"],
   "projects": [
         {
       "title": "My E-Portfolio",
@@ -24,7 +24,7 @@
     },
     {
       "title": "Voxel World Generator",
-      "description": "A procedural 10x10 voxel world engine built with physics-based player movement, collision detection, and dynamic chunk loading.",
+      "description": "A infinite procedural voxel world built with physics-based player movement, collision detection, and dynamic chunk loading.",
       "tags": ["C#", "Godot", "Procedural Gen"],
       "status": "Coming Soon",
       "link": [
@@ -40,7 +40,7 @@
     },
     {
       "title": "Task App",
-      "description": "A Command Line Interface tool to track tasks. It uses a sqlite database to store and handle tasks.",
+      "description": "A Command Line Interface tool and Desktop Application to track tasks. It uses a sqlite database to store and handle tasks.",
       "tags": ["Desktop", "Python", "Work In Progress"],
       "status": "Coming Soon",
       "link": [
@@ -56,19 +56,31 @@
       "role": "Software Engineering Intern",
       "company": "OCV LLC.",
       "period": "May 2025 - Current",
-      "description": "Working with a team developing, testing, and publishing apps and websites for Sheriffs and Police Departments across the United States. "
+      "description": [
+        "Developed and maintained native mobile applications and web platforms for public safety and emergency services agencies, including law enforcement, fire departments, and EMA organizations.",
+        "Collaborated within an 8-person engineering team to design, test, build, and deploy 1,500+ custom iOS, Android, and web applications.",
+        "Engineered cross-platform solutions using Swift in Xcode, Kotlin in Android Studio, and React with Node.js in VS Code to ensure reliable and user-friendly communication for public safety"
+      ]
     },
     {
       "role": "Operations Supervisor",
-      "company": "Auburn Rec & Wellness",
+      "company": "Auburn University Recreation & Wellness",
       "period": "May 2024 - Current",
-      "description": "As an Operation Supervisor at Auburn Recreation and Wellness I supervised shift employees, oversaw safety and policy enforcement of members and guests, and managed University events that happened within the facility."
+      "description": [
+        "Led and managed a team of 6 shift staff, directing daily facility operations and ensuring a safe, welcoming environment for members and guests.",
+        "Coordinated end-to-end logistics, setup, and supervision for center-hosted events, ensuring seamless execution and guest satisfaction.",
+        "Supervised guests and team members to ensure compliance with safety regulations and maintain a secure environment."
+      ]
     },
     {
       "role": "Light Crew for AU Marching Band",
       "company": "Auburn University Marching Band",
-      "period": "May 2024 - May 2026",
-      "description": "While in the marching band I assembled, fixed, tested, and distributed lighting rigs used during shows such as \"Viva La France\" and \"Game On\". The light crew consisted of a small group of band members who stayed after hours to get lighting rigs ready for shows."
+      "period": "Aug 2024 - May 2026",
+      "description": [
+        "Coordinated setup, testing, and distribution of specialized performance lighting hardware for 370+ band members during university game days.",
+        "Troubleshot and repaired electrical connections and hardware issues on-site under high-pressure, live stadium conditions.",
+        "Managed post-game inventory breakdown, hardware maintenance, and secure storage to ensure equipment longevity and readiness for subsequent performances."
+      ]
     }
   ]
 }

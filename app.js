@@ -98,13 +98,20 @@ function populatePortfolio(data) {
   data.experience.forEach(exp => {
     const item = document.createElement("div");
     item.className = "timeline-item";
+
+    const descriptionsList = exp.description
+    .map(desc => `<li>${desc}</li>`)
+    .join("");
+
     item.innerHTML = `
       <div class="timeline-meta">
         <h3>${exp.role}</h3>
         <span class="timeline-date">${exp.period}</span>
       </div>
       <div class="timeline-company">${exp.company}</div>
-      <p style="color: var(--text-muted); font-size: 0.95rem;">${exp.description}</p>
+      <ul style="color: var(--text-muted); font-size: 0.95rem;">
+        ${descriptionsList}
+      </ul>
     `;
     timeline.appendChild(item);
   });
